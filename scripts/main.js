@@ -19,7 +19,7 @@ myImage.onclick = function(){
 var myButton=document.querySelector('button');
 var myHeading=document.querySelector('h1');
 function setUserName(){
-	var myName = prompt('Whose birthday is it?');
+	var myName = prompt('What is the password?');
 	localStorage.setItem('name', myName);
 	myHeading.innerHTML = 'Happy Birthday '+myName+'!!!';
 }
